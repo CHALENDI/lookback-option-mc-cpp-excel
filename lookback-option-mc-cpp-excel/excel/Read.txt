@@ -1,5 +1,1 @@
-x64 Native Tools Command Prompt for VS
 
-cd C:\Users\ilbov\Downloads\lookback_project_files\cpp
-
-cmake --build build --config Release
