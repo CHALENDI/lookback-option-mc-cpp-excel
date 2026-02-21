@@ -1,0 +1,10 @@
+^C:\USERS\ILBOV\DOWNLOADS\LOOKBACK_PROJECT_FILES\CPP\BUILD\CMAKEFILES\B84C745FFEDA89AA41468CA0BFEE1A1C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ilbov/Downloads/lookback_project_files/cpp -BC:/Users/ilbov/Downloads/lookback_project_files/cpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ilbov/Downloads/lookback_project_files/cpp/build/LookbackMCExcel.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
