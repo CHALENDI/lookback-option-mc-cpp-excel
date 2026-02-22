@@ -9,7 +9,6 @@ The computational core is written in C++ for performance and compiled into a Win
 This project was developed as part of an M2 Quantitative Finance program.
 
 ---
-
 ## Mathematical Framework
 
 ### Risk-Neutral Dynamics
